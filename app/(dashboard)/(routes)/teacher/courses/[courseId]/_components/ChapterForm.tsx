@@ -134,7 +134,6 @@ const ChapterForm = ({ initialData, courseId }: ChapterFormProps) => {
             !initialData.chapter.length && "text-slate-500 italic"
           )}
         >
-          {!initialData.chapter.length && "No chapters"}
           {initialData.chapter.length === 0 ? (
             "No chapters"
           ) : (
