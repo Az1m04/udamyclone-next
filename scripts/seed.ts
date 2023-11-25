@@ -7,10 +7,10 @@ async function main() {
         data: [
           { name: "Computer Science" },
           { name: "Fitness" },
-          { name: "Mathematics" },
-          { name: "Physics" },
-          { name: "Biology" },
-          { name: "Chemistry" },
+          { name: "Accounting" },
+          { name: "Filming" },
+          { name: "Engineering" },
+          { name: "Photography" },
         ],
       });
     console.log("success");
