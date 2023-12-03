@@ -30,7 +30,7 @@ export const Chart = ({ data }: ChartPops) => {
             axisLine={false}
             tickFormatter={(value) => `${formatPrice(value)}`}
           />
-          <Bar dataKey={"total"} radius={[4, 4, 0, 0, 0]} fill="#0369A1" />
+          <Bar dataKey={"total"} radius={[4, 4, 0, 0]} fill="#0369A1" />
         </BarChart>
       </ResponsiveContainer>
     </Card>
